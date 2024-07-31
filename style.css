@@ -1,5 +1,25 @@
+htm,body{
+    margin:0;
+    overflow-x:hidden;
+    overflow-y: auto;
+    background-color:azure;
+}
+
 canvas{
-    width:100px;
-    height:100px;
-    border:lightblue;
+    width:75%;
+    border:2px solid lightblue;
+    border-radius:8px;
+}
+
+canvas:hover{
+    box-shadow:0px 8px 12px 2px rgb(55, 133, 235);
+}
+
+p{
+    text-overflow: ellipsis; 
+    text-align:center;
+  font-family: "Playwrite AT", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
 }

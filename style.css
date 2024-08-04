@@ -23,3 +23,12 @@ p{
   font-weight: bold;
   font-style: normal;
 }
+.options{
+    display:flex;
+    justify-content:flex-around;
+}
+.options>div{
+    border:1px solid black;
+    border-radius:4px
+}
+    

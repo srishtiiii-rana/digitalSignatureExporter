@@ -2,17 +2,18 @@ htm,body{
     margin:0;
     overflow-x:hidden;
     overflow-y: auto;
-    background-color:azure;
+    background-color:#bbbbbb;
 }
 
 canvas{
     width:75%;
-    border:2px solid lightblue;
+    border:2px solid #eeeeee;
     border-radius:8px;
+    background-color:white;
 }
 
 canvas:hover{
-    box-shadow:0px 8px 12px 2px rgb(55, 133, 235);
+    box-shadow:0px 8px 12px 2px ;
 }
 
 p{

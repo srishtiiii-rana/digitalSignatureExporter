@@ -5,6 +5,13 @@ htm,body{
     background-color:#bbbbbb;
 }
 
+.navbar{
+    display:flex;
+    justify-content:flex-around;
+    flex-wrap:wrap;
+    background-color:rgba(0,0,0,0.8);
+    position:sticky;
+}
 canvas{
     width:75%;
     border:2px solid #eeeeee;
